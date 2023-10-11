@@ -6,7 +6,7 @@ function Header() {
     <div>
       <h1>Family love!!!!</h1>
       {name.map((item, index) => (
-        <li key={index}>{item}</li>
+        <p key={index}>{item}</p>
       ))}
     </div>
   )
